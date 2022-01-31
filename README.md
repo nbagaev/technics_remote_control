@@ -1,5 +1,8 @@
 # technics_remote_control
  technics remote control
+
+![circuit.svg](circuit.svg)
+
 ```
 It looks like modified NEC code.
 
