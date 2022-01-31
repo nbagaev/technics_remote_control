@@ -1,5 +1,6 @@
-# technics_remote_control
- technics remote control
+# technics remote control
+
+It's the same circuit for SA-R230, SA-R330, SA-GX100, SA-GX190, SA-GX200, SA-GX230
 
 ![circuit.svg](circuit.svg)
 
