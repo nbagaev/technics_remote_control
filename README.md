@@ -38,7 +38,7 @@ cd stop 	01100 		000000
 cd |<< 		01100 		000010
 cd >>| 		01100 		000011
 cd +10 		01100 		011010
-cd prg/cnt  	01100		011101
+cd prg/cnt  01100		011101
 cd 1 		01100 		010000
 cd 2 		01100 		010001
 cd 3 		01100 		010010
@@ -57,29 +57,29 @@ It's the same as EUR64758 but LSB first and more buttons
 cmd	     custom code   data code
 
 deck 1/2	10010 		001000
-deck >>		10010		010000
-deck <<		10010		010000?
+deck >>		10010		110000
+deck <<		10010		010000
 deck >		10010		010100
 deck <		10010		100100
 deck ||		10010		011000
 deck rec	10010		000100
 deck stop 	10010		000000
 on/off 		10010 		000001 
-vol+ 		10010       	001001
+vol+ 		10010       001001
 vol- 		10010		101001
 muting		10010		111001
 vcr 1		10010		011111 		
 
 tuner 1 	10010		000010
-tuner 2 	
-tuner 3 	
-tuner 4 	
-tuner 5 	
-tuner 6 	
-tuner 7 	
-tuner 8 	
-tuner 9 	
-tuner 0 	
+tuner 2 	10010		100010
+tuner 3 	10010		010010
+tuner 4 	10010		110010
+tuner 5 	10010		001010
+tuner 6 	10010		101010
+tuner 7 	10010		011010
+tuner 8 	10010		111010
+tuner 9 	10010		000110
+tuner 0 	10010		100110
 
 cd > 		00110		010100
 cd stop 	00110		000000
@@ -88,14 +88,14 @@ cd >>| 		00110		110000
 cd +10 		00110		010110
 cd prg/cnt	00110		101110
 disc		00110		011001
-cd 1 		
-cd 2 		
-cd 3 		
-cd 4 		
-cd 5 		
-cd 6 		
-cd 7 		
-cd 8 		
-cd 9 		
-cd 0 	
+cd 1 		00110		000010
+cd 2 		00110		100010
+cd 3 		00110       010010
+cd 4 		00110       110010
+cd 5 		00110       001010
+cd 6 		00110       101010
+cd 7 		00110       011010
+cd 8 		00110       111010
+cd 9 		00110       000110
+cd 0 		00110       100110
 ```	
